@@ -1,0 +1,27 @@
+body * {
+    border: 1px solid red;
+}
+header h1 {
+    text-align: center;
+}
+.flexInline {
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    align-items: center;
+    height: 10em;
+}
+
+.grid2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+    text-align: center;
+}
+.grid2 > h1 {
+    grid-column: 1 / -1;
+}
+footer {
+    margin: 2em 0;
+    text-align: center;
+}
